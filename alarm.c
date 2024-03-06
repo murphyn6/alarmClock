@@ -9,7 +9,7 @@ int main(void)
 	//Setup
 	LCD_Setup();
 	LCD_Clear();
-	initIR(5,0x00FF, );
+	initIR(5,0x00FF, *IR_REMOTE);
 	
 	getIRCommandRec();
 	
